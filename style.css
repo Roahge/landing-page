@@ -20,6 +20,7 @@ div {
 div.header > div.links-right {
     display: flex;
     gap: 80px;
+    font-size: 18px;
 }
 
 img {
@@ -39,6 +40,10 @@ h1 {
     width: 400px;
     margin: 0;
     color: white;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
 }
 
 button {
