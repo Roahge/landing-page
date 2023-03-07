@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    height: 1700px;
     margin-left: 160px;
     margin-right: 160px;
     margin-top: 12px;
@@ -77,8 +78,7 @@ button.default {
     margin-top: 100px;
     margin-left: -160px;
     margin-right: -160px;
-    margin-bottom: 400px;
-    padding-bottom: 500px;
+    padding-bottom: 120px;
 }
 
 .header-two {
@@ -153,4 +153,46 @@ button.default {
     margin-top: 12px;
     margin-left: 1440px;
     font-weight: 900;
+    margin-bottom: 120px;
+}
+
+.action-container {
+display: flex;
+justify-content: space-around;
+background-color:#3882F6;
+margin-left: 160px;
+margin-right: 160px;
+padding-top: 30px;
+padding-bottom: 30px;
+border-radius: 10px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.action {
+    font-weight: 900;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+}
+
+button.default-inverse {
+    background-color: #3882F6;
+    border-color: white;
+    color: white;
+    width: 120px;
+    height: 40px;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
 }
